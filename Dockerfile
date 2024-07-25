@@ -11,7 +11,7 @@ COPY tgState /app/tgState
 WORKDIR /app
 
 # 设置暴露的端口
-EXPOSE 618
+EXPOSE 8088
 
 # 设置容器启动时要执行的命令
 CMD  [ "/app/tgState" ]
